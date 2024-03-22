@@ -1,0 +1,1521 @@
+﻿body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#header {
+    float: left;
+    width: 100%;
+}
+
+.innerContent .lowerContent {
+    float: left;
+    margin-top: 3%;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+    .innerContent .lowerContent .homeLeft {
+        width: 60%;
+        float: left;
+        margin-left: 2%;
+    }
+
+        .innerContent .lowerContent .homeLeft .boxLong .moreExhib {
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+        }
+
+            .innerContent .lowerContent .homeLeft .boxLong .moreExhib:hover {
+                transform: translateY(-3px);
+                text-decoration: none;
+            }
+
+    .innerContent .lowerContent .homeRight {
+        width: 28%;
+        float: left;
+        margin-left: 4%;
+    }
+
+        .innerContent .lowerContent .homeRight .homeRightBox {
+            width: 100%;
+            float: left;
+            margin-bottom: 2%;
+        }
+
+            .innerContent .lowerContent .homeRight .homeRightBox h3 {
+                font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+                color: #3b3b3b;
+            }
+
+            .innerContent .lowerContent .homeRight .homeRightBox p {
+                font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+                color: #3b3b3b;
+            }
+
+            .innerContent .lowerContent .homeRight .homeRightBox img {
+                width: 30%;
+                height: 125px;
+                object-fit: cover;
+                float: left;
+                border-radius: 10px;
+            }
+
+        .innerContent .lowerContent .homeRight a {
+            text-decoration: none;
+        }
+
+            .innerContent .lowerContent .homeRight a:hover {
+                filter: brightness(0.8);
+            }
+
+.innerContent .profileContent {
+    width: 100%;
+    float: left;
+    margin: 2% 0;
+}
+
+    .innerContent .profileContent .profileLeft {
+        width: 35%;
+        float: left;
+    }
+
+        .innerContent .profileContent .profileLeft img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: 300px;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .innerContent .profileContent .profileLeft h2 {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            text-align: center;
+            text-transform: none;
+            font-weight: bold;
+        }
+
+        .innerContent .profileContent .profileLeft h3 {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            text-align: center;
+            text-transform: none;
+            font-style: italic;
+        }
+
+    .innerContent .profileContent .profileRight {
+        width: 50%;
+        float: left;
+    }
+
+        .innerContent .profileContent .profileRight h3 {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            text-align: center;
+            text-transform: none;
+            float: left;
+            margin: 0;
+            margin-right: 2%;
+        }
+
+        .innerContent .profileContent .profileRight p {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            text-transform: none;
+            font-style: italic;
+            margin-top: 19px;
+            margin-left: 20%;
+        }
+
+        .innerContent .profileContent .profileRight span {
+            margin-left: 5%;
+            float: left;
+        }
+
+        .innerContent .profileContent .profileRight .updateProfileBtn {
+            margin-top: 20%;
+            float: left;
+            margin-right: 2%;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+        }
+            .innerContent .profileContent .profileRight .updateProfileBtn a {
+                font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+                text-decoration: none;
+                background-color: #3b3b3b;
+                padding: 15px;
+                border-radius: 15px;
+            }
+
+            .innerContent .profileContent .profileRight .updateProfileBtn:hover {
+                transform: translateY(-3px);
+            }
+
+        .innerContent .profileContent .profileRight .btnUpdateArtistProfile {
+            margin-top: 20%;
+            float: left;
+            margin-right: 2%;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+        }
+            .innerContent .profileContent .profileRight .btnUpdateArtistProfile:hover {
+                transform: translateY(-3px);
+            }
+
+            .innerContent .profileContent .profileRight .btnUpdateArtistProfile a {
+                font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+                text-decoration: none;
+                background-color: #3b3b3b;
+                padding: 15px;
+                border-radius: 15px;
+            }
+
+        .innerContent .profileContent .profileRight .btnChangePassword {
+            margin-top: 20%;
+            float: left;
+            margin-right: 2%;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+        }
+            .innerContent .profileContent .profileRight .btnChangePassword:hover {
+                transform: translateY(-3px);
+            }
+
+            .innerContent .profileContent .profileRight .btnChangePassword a {
+                font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+                text-decoration: none;
+                background-color: #3b3b3b;
+                padding: 15px;
+                border-radius: 15px;
+            }
+
+.innerContent .profileFooterButton {
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+}
+
+    .innerContent .profileFooterButton .pfbLeft {
+        float: left;
+    }
+
+    .innerContent .profileFooterButton .pfbRight {
+        float: right;
+    }
+
+    .innerContent .profileFooterButton input[type=submit] {
+        padding: 15px;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: #3b3b3b;
+        border-radius: 15px;
+        font-size: 13pt;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+        .innerContent .profileFooterButton input[type=submit]:hover {
+            cursor: pointer;
+            filter: brightness(0.7);
+            transform: translateY(-3px);
+        }
+
+.innerContent .upperContent {
+    width: 100%;
+    float: left;
+}
+
+    .innerContent .upperContent p {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3b3b3b;
+        font-size: 15pt;
+    }
+
+    .innerContent .upperContent blockquote {
+        padding-left: 1em;
+        border-left: 5px solid rgba(0,47,75,0.5);
+    }
+
+    .innerContent .upperContent q, blockquote {
+        quotes: "“" "”" "‘" "’";
+        font-style: italic;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3b3b3b;
+        font-size: 15pt;
+    }
+
+    .innerContent .upperContent .french {
+        quotes: "«" "»" "‹" "›";
+    }
+
+    .innerContent .upperContent q:before, blockquote:before {
+        content: open-quote;
+    }
+
+    .innerContent .upperContent q:after, blockquote:after {
+        content: close-quote;
+    }
+
+    .innerContent .upperContent q:before, q:after, blockquote:before, blockquote:after {
+        color: rgba(0,47,75,0.5);
+        font-size: 1.2em;
+    }
+
+    .innerContent .upperContent .img-gradient {
+        position: relative;
+        display: inline-block;
+    }
+
+        .innerContent .upperContent .img-gradient:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            display: inline-block;
+            background: -moz-linear-gradient(top, rgba(0,47,75,0.5) 0%, #3b3b3b 125%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b3b3b), color-stop(100%,rgba(0,47,75,0.5)));
+            background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,#3b3b3b 125%);
+            background: -o-linear-gradient(top, rgba(0,47,75,0.5) 0%,#3b3b3b 125%);
+            background: -ms-linear-gradient(top, rgba(0,47,75,0.5) 0%,#3b3b3b 125%);
+            background: linear-gradient(to bottom, rgba(0,47,75,0.5) 0%,#3b3b3b 125%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 );
+        }
+
+        .innerContent .upperContent .img-gradient img {
+            display: block;
+            width: 100%;
+            height: 300px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+
+#backContent {
+    width: 100%;
+    float: left;
+    background-color: #e5e5e5;
+}
+
+.headerLeft {
+    width: 30%;
+    float: left;
+}
+
+    .headerLeft img {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .headerLeft h2 {
+        font-family: Arial;
+        font-size: 23pt;
+        font-weight: bold;
+        margin-left: 10%;
+    }
+
+.headerRight {
+    width: 70%;
+    float: right;
+}
+
+#headerBanner {
+    width: 100%;
+    height: 10px;
+    background-color: #3b3b3b;
+    float: left;
+    margin-top: 1%;
+}
+
+
+
+#menu {
+    width: 95%;
+    font-size: 18px;
+    font-family: 'Gill Sans MT';
+    margin-top: 3%;
+}
+
+    #menu ul li {
+        text-align: center;
+        text-transform: uppercase;
+        display: inline;
+        float: left;
+        margin: 2px;
+    }
+
+    #menu li a {
+        display: block;
+        color: #3b3b3b;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 15px;
+        width: 120px;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+        #menu li a:hover {
+            background-color: #3b3b3b;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: #3b3b3b;
+    margin-bottom: 2%;
+    border-radius: 15px;
+}
+
+.lineForm {
+    width: 100%;
+    height: 5px;
+    background-color: #3b3b3b;
+    margin-bottom: 5%;
+    border-radius: 15px;
+    margin-top: -5%;
+}
+
+.verticalLine {
+    border-left: 3px solid #3b3b3b;
+    height: 450px;
+    float: left;
+    margin-right: 5%;
+    border-radius: 15px;
+    filter: brightness(2);
+}
+
+#artDetail {
+    width: 100%;
+    margin-top: 1%;
+    float: left;
+}
+
+    #artDetail .left {
+        width: 30%;
+        float: left;
+        margin-right: 2%;
+    }
+
+        #artDetail .left img {
+            width: 80%;
+            height: auto;
+            border-radius: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: right;
+            border: 2px solid #3b3b3b;
+        }
+
+    #artDetail .right {
+        width: 30%;
+        float: left;
+    }
+
+        #artDetail .right p {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 15pt;
+        }
+
+            #artDetail .right p a {
+                font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+                color: #3b3b3b;
+                text-decoration: none;
+            }
+
+                #artDetail .right p a:hover {
+                    text-decoration: underline;
+                }
+
+        #artDetail .right h2 {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 20pt;
+            margin-left: 1%;
+        }
+
+        #artDetail .right p span {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 16pt;
+            margin-right: 3%;
+            float: left;
+            font-weight: bold;
+        }
+
+    #artDetail .bottomArt {
+        float: left;
+    }
+
+        #artDetail .bottomArt p {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 15pt;
+            padding: 0 3% 0 3%;
+        }
+
+        #artDetail .bottomArt h2 {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 20pt;
+            margin-left: 1%;
+            margin-top: 2%;
+        }
+
+        #artDetail .bottomArt span {
+            margin-right: 3%;
+        }
+
+    #artDetail .btn-like {
+        display: block;
+        text-align: center;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px -8px #3b3b3b;
+        padding: 10px 17px;
+        font-size: 18px;
+        cursor: pointer;
+        border: 1px solid #3b3b3b;
+        outline: none;
+        color: #3b3b3b;
+        text-decoration: none;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        margin-right: 3%;
+        float: left;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        #artDetail .btn-like:hover {
+            transform: translateY(-3px);
+            text-decoration: none;
+        }
+
+        #artDetail .btn-like .fa {
+            margin-right: 5px;
+        }
+
+    #artDetail .btn-likedAlready {
+        display: block;
+        text-align: center;
+        background: #3b3b3b;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px -8px #3b3b3b;
+        padding: 10px 17px;
+        font-size: 18px;
+        cursor: pointer;
+        border: 1px solid #3b3b3b;
+        outline: none;
+        color: white;
+        text-decoration: none;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        margin-right: 3%;
+        float: left;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        #artDetail .btn-likedAlready:hover {
+            transform: translateY(-3px);
+            text-decoration: none;
+        }
+
+        #artDetail .btn-likedAlready .fa {
+            margin-right: 5px;
+        }
+
+    #artDetail .btn-dislike {
+        display: block;
+        text-align: center;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px -8px #3b3b3b;
+        padding: 10px 17px;
+        font-size: 18px;
+        cursor: pointer;
+        border: 1px solid #3b3b3b;
+        outline: none;
+        color: #3b3b3b;
+        text-decoration: none;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        margin-right: 3%;
+        float: left;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        #artDetail .btn-dislike:hover {
+            transform: translateY(-3px);
+            text-decoration: none;
+        }
+
+        #artDetail .btn-dislike .fa {
+            margin-right: 5px;
+        }
+
+    #artDetail .btn-dislikedAlready {
+        display: block;
+        text-align: center;
+        background: #3b3b3b;
+        border-radius: 5px;
+        box-shadow: 0 10px 20px -8px #3b3b3b;
+        padding: 10px 17px;
+        font-size: 18px;
+        cursor: pointer;
+        border: 1px solid #3b3b3b;
+        outline: none;
+        color: white;
+        text-decoration: none;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+        margin-right: 3%;
+        float: left;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        #artDetail .btn-dislikedAlready:hover {
+            transform: translateY(-3px);
+            text-decoration: none;
+        }
+
+        #artDetail .btn-dislikedAlready .fa {
+            margin-right: 5px;
+        }
+
+#galleryDetail {
+    width: 100%;
+    margin-top: 1%;
+    float: left;
+}
+
+    #galleryDetail .right {
+        width: 55%;
+        float: left;
+    }
+
+        #galleryDetail .right p {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 15pt;
+        }
+
+        #galleryDetail .right h2 {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 20pt;
+            margin-left: 1%;
+        }
+
+        #galleryDetail .right p span {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 16pt;
+            margin-right: 3%;
+            float: left;
+            font-weight: bold;
+        }
+
+    #galleryDetail .left {
+        width: 40%;
+        float: left;
+        margin-right: 2%;
+    }
+
+        #galleryDetail .left img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: right;
+            border: 2px solid #3b3b3b;
+        }
+
+#artistDetail {
+    width: 100%;
+    margin-top: 1%;
+    float: left;
+}
+
+    #artistDetail .left {
+        width: 20%;
+        float: left;
+        margin-right: 2%;
+    }
+
+        #artistDetail .left img {
+            width: 250px;
+            height: auto;
+            border-radius: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: right;
+            border: 2px solid #3b3b3b;
+        }
+
+    #artistDetail .right {
+        width: 30%;
+        float: left;
+    }
+
+        #artistDetail .right p {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 15pt;
+        }
+
+        #artistDetail .right h2 {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 20pt;
+            margin-left: 1%;
+        }
+
+        #artistDetail .right p span {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 16pt;
+            margin-right: 3%;
+            float: left;
+            font-weight: bold;
+        }
+
+#applicationDetail {
+    width: 100%;
+    margin-top: 1%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+    #applicationDetail .left {
+        width: 35%;
+        float: left;
+        margin-right: 2%;
+    }
+
+        #applicationDetail .left img {
+            width: 70%;
+            height: auto;
+            border-radius: 15px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            float: right;
+            border: 2px solid #3b3b3b;
+        }
+
+    #applicationDetail .right {
+        width: 50%;
+        float: left;
+    }
+
+        #applicationDetail .right p {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 15pt;
+        }
+
+        #applicationDetail .right h2 {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 20pt;
+            margin-left: 1%;
+        }
+
+        #applicationDetail .right p span {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            font-size: 16pt;
+            margin-right: 3%;
+            float: left;
+            font-weight: bold;
+        }
+
+    #applicationDetail a {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3b3b3b;
+        text-decoration: none;
+    }
+
+        #applicationDetail a:hover {
+            text-decoration: underline;
+        }
+
+    #applicationDetail .applicationFooter {
+        float: left;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+        #applicationDetail .applicationFooter .confirm {
+            padding: 15px;
+            color: white;
+            background-color: darkgreen;
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 2px solid #3b3b3b;
+            cursor: pointer;
+            margin-right: 5%;
+            width: 25%;
+            font-size: 12pt;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+            box-shadow: 0 10px 20px -8px #3b3b3b;
+        }
+
+            #applicationDetail .applicationFooter .confirm:hover {
+                transform: translateY(-3px);
+            }
+
+        #applicationDetail .applicationFooter .reject {
+            padding: 15px;
+            color: white;
+            background-color: darkred;
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 2px solid #3b3b3b;
+            cursor: pointer;
+            margin-right: 5%;
+            width: 25%;
+            font-size: 12pt;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+            box-shadow: 0 10px 20px -8px #3b3b3b;
+        }
+
+            #applicationDetail .applicationFooter .reject:hover {
+                transform: translateY(-3px);
+            }
+
+#artistDetailFooter {
+    float: left;
+    width: 100%;
+    margin-top: 2%;
+}
+
+    #artistDetailFooter h2 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3b3b3b;
+        font-size: 20pt;
+        margin-left: 1%;
+    }
+
+#galleryArts {
+    float: left;
+}
+
+    #galleryArts .boxShort img {
+        margin-right: 5px;
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    #galleryArts .boxShort h4 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3b3b3b;
+        font-style: italic;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #galleryArts a {
+        text-decoration: none;
+        color: #3b3b3b;
+    }
+
+        #galleryArts a:hover {
+            filter: brightness(0.8);
+        }
+
+#artistArts {
+    float: left;
+}
+
+    #artistArts .boxShort img {
+        margin-right: 5px;
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    #artistArts .boxShort h4 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3b3b3b;
+        font-style: italic;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #artistArts a {
+        text-decoration: none;
+        color: #3b3b3b;
+    }
+
+        #artistArts a:hover {
+            filter: brightness(0.8);
+        }
+
+#content {
+    width: 90%;
+    float: left;
+    margin: 50px 70px 50px 70px;
+    border: 4px outset #3b3b3b;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+    #content .innerContent a {
+        text-decoration: none;
+        color: #3b3b3b;
+    }
+
+        #content .innerContent a:hover {
+            filter: brightness(0.8);
+        }
+
+    #content .innerContent .about p {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3b3b3b;
+        padding: 0 5% 0 5%;
+        font-size: 14pt;
+    }
+
+    #content .innerContent .about h1 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3b3b3b;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #content .innerContent .about span {
+        margin-left: 3%;
+    }
+
+    #content hr {
+        width: 85%;
+        float: left;
+    }
+
+    #content .boxLong {
+        width: 100%;
+        float: left;
+    }
+
+        #content .boxLong h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+
+        #content .boxLong p {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            color: #3b3b3b;
+        }
+
+        #content .boxLong .data {
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            color: #3b3b3b;
+            text-transform: none;
+        }
+
+            #content .boxLong .data a {
+                display: block;
+                color: #3b3b3b;
+                text-decoration: none;
+                text-align: center;
+                font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+                text-transform: none;
+            }
+
+        #content .boxLong h3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin-top: -28px;
+        }
+
+        #content .boxLong a {
+            display: block;
+            color: #3b3b3b;
+            text-decoration: none;
+            text-align: center;
+            font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+        }
+
+            #content .boxLong a:hover {
+                text-decoration: underline;
+            }
+
+    #content .boxShortArtist {
+        width: 16%;
+        float: left;
+        /*margin-right: 20px;*/
+        /*border: 2px outset #3b3b3b;*/
+        padding: 5px;
+        margin-bottom: 2%;
+        border-radius: 10px;
+    }
+
+        #content .boxShortArtist h3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin-top: 2%;
+            text-align: center;
+        }
+
+        #content .boxShortArtist h5 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: normal;
+            font-style: italic;
+            text-align: center;
+            margin-top: -5%;
+        }
+
+        #content .boxShortArtist img {
+            margin-right: 5px;
+            border-radius: 10px;
+            width: 100%;
+            height: 350px;
+        }
+
+        #content .boxShortArtist p {
+            padding-right: 80px;
+        }
+
+    #content .boxShort {
+        width: 23%;
+        float: left;
+        margin-right: 20px;
+        /*border: 2px outset #3b3b3b;*/
+        padding: 5px;
+        margin-bottom: 2%;
+        border-radius: 10px;
+    }
+
+        #content .boxShort h3 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin-top: 2%;
+            text-align: center;
+        }
+
+        #content .boxShort h5 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: normal;
+            font-style: italic;
+            text-align: center;
+            margin-top: -5%;
+        }
+
+
+
+    #content .innerContent .boxLong table {
+        width: 100%;
+    }
+
+        #content .innerContent .boxLong table tr td {
+            width: 15%;
+        }
+
+    #content .boxShort img {
+        margin-right: 5px;
+        border-radius: 10px;
+        width: 100%;
+        height: 250px;
+        border: 2px solid #3b3b3b;
+    }
+
+    #content .boxShort p {
+        padding-right: 80px;
+    }
+
+.innerContent h2 {
+    font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: #3b3b3b;
+    margin-left: 1%;
+}
+
+.contactContent {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+    .contactContent h2 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        color: #3b3b3b;
+    }
+
+    .contactContent input[type=submit] {
+        float: right;
+        padding: 10px 30px 10px 30px;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        border-radius: 10px;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+        .contactContent input[type=submit]:hover {
+            background-color: #3b3b3b;
+            color: white;
+            cursor: pointer;
+            transform: translateY(-3px);
+        }
+
+    .contactContent span {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .contactContent input[type=text] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .contactContent input[type=tel] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .contactContent textarea {
+        float: right;
+        width: 60%;
+        height: 100px;
+        resize: none;
+    }
+
+    .contactContent input[type=password] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+.updateProfile {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+    .updateProfile h2 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        color: #3b3b3b;
+    }
+
+    .updateProfile input[type=submit] {
+        float: right;
+        padding: 10px 30px 10px 30px;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        border-radius: 10px;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+        .updateProfile input[type=submit]:hover {
+            background-color: #3b3b3b;
+            color: white;
+            cursor: pointer;
+            transform: translateY(-3px);
+        }
+
+    .updateProfile span {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .updateProfile input[type=text] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .updateProfile input[type=tel] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .updateProfile textarea {
+        float: right;
+        width: 60%;
+        height: 50px;
+        resize: none;
+    }
+
+    .updateProfile input[type=password] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+.applicationContent {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+    .applicationContent h2 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        color: #3b3b3b;
+    }
+
+    .applicationContent input[type=submit] {
+        float: right;
+        padding: 10px 30px 10px 30px;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        border-radius: 10px;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+        .applicationContent input[type=submit]:hover {
+            background-color: #3b3b3b;
+            color: white;
+            cursor: pointer;
+            transform: translateY(-3px);
+        }
+
+    .applicationContent span {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .applicationContent input[type=text] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .applicationContent input[type=tel] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .applicationContent textarea {
+        float: right;
+        width: 60%;
+        height: 50px;
+        resize: none;
+    }
+
+    .applicationContent input[type=password] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+
+.signUpContent {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+    .signUpContent h2 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        color: #3b3b3b;
+    }
+
+    .signUpContent input[type=submit] {
+        float: right;
+        padding: 10px 30px 10px 30px;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        border-radius: 10px;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+        .signUpContent input[type=submit]:hover {
+            background-color: #3b3b3b;
+            color: white;
+            cursor: pointer;
+            transform: translateY(-3px);
+        }
+
+    .signUpContent span {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .signUpContent input[type=text] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .signUpContent input[type=tel] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .signUpContent textarea {
+        float: right;
+        width: 60%;
+        height: 50px;
+        resize: none;
+    }
+
+    .signUpContent input[type=password] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+.addGalleryContent {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+    .addGalleryContent h2 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        color: #3b3b3b;
+    }
+
+    .addGalleryContent input[type=submit] {
+        float: right;
+        padding: 10px 30px 10px 30px;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        border-radius: 10px;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+        .addGalleryContent input[type=submit]:hover {
+            background-color: #3b3b3b;
+            color: white;
+            cursor: pointer;
+            transform: translateY(-3px);
+        }
+
+    .addGalleryContent span {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .addGalleryContent input[type=text] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .addGalleryContent input[type=tel] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .addGalleryContent textarea {
+        float: right;
+        width: 60%;
+        height: 100px;
+        resize: none;
+    }
+
+    .addGalleryContent input[type=password] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .addGalleryContent #ddlArtist {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+.loginContent {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    line-height: 2;
+    margin-bottom: 2%;
+}
+
+    .loginContent h2 {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        color: #3b3b3b;
+    }
+
+    .loginContent input[type=submit] {
+        float: right;
+        padding: 10px 30px 10px 30px;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        border-radius: 10px;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease;
+    }
+
+        .loginContent input[type=submit]:hover {
+            background-color: #3b3b3b;
+            color: white;
+            cursor: pointer;
+            transform: translateY(-3px);
+        }
+
+    .loginContent span {
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .loginContent input[type=text] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .loginContent input[type=tel] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+    .loginContent textarea {
+        float: right;
+        width: 60%;
+        height: 50px;
+        resize: none;
+    }
+
+    .loginContent input[type=password] {
+        float: right;
+        width: 60%;
+        height: 20px;
+    }
+
+#backFooter {
+    width: 100%;
+    float: left;
+    background-color: #3b3b3b;
+}
+
+#footer {
+    width: 93%;
+    margin: 50px 70px 50px 70px;
+    float: left;
+}
+
+    #footer .box {
+        width: 23%;
+        float: left;
+        text-align: center;
+        margin-right: 2%;
+    }
+
+    #footer h2 {
+        text-transform: uppercase;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: normal;
+        color: #e5e5e5;
+    }
+
+    #footer a {
+        text-decoration: none;
+        font-family: 'Gill Sans MT';
+        color: black;
+    }
+
+        #footer a:hover {
+            background-color: #3b3b3b;
+            color: white;
+            padding: 7px 7px 7px 7px;
+            border-radius: 10px;
+        }
+
+    #footer ul {
+        padding-left: 0px;
+    }
+
+        #footer ul li {
+            display: block;
+            margin-bottom: 3%;
+            margin-top: 4%;
+        }
+
+    #footer .box .miniBox {
+        background-color: #e5e5e5;
+        padding: 10px 20px 20px 20px;
+        border-radius: 30px;
+        height: 190px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        filter: invert(1);
+    }
+
+    #footer p {
+        color: black;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+    }
+
+    #footer h4 {
+        color: grey;
+        text-transform: uppercase;
+        font-family: 'Gill Sans MT', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: normal;
+    }
+
+.footerLink {
+    float: left;
+    width: 95%;
+}
+
+    .footerLink hr {
+        float: left;
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .footerLink h4 {
+        text-align: center;
+        color: #e5e5e5;
+        margin-top: 2%;
+        font-family: 'Gill Sans MT';
+        text-transform: uppercase;
+    }

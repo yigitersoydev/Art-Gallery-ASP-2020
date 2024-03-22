@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Art Gallery</title>
+    <link href="Style.css" rel="stylesheet"  type="text/css"/>
+    <link rel="icon" type="image/x-icon" href="Images/logoFav.png"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <div class="headerLeft">
+                <a href="Default.aspx">
+                    <img src="Images/logo.jpg" /></a>
+            </div>
+            <div class="headerRight">
+                <div id="menu">
+                    <ul>
+                        <li><a href="AboutUs.aspx">About Us</a>  </li>
+                        <li><a href="Artists.aspx">Artists</a>  </li>
+                        <li><a href="Galleries.aspx">Galleries</a>  </li>
+                        <li><a href="Exhibitions.aspx">Exhibitions</a>  </li>
+                        <li><a href="Contact.aspx">Contact</a>  </li>
+
+                        <asp:Panel ID="pnlLogSign" runat="server">
+                            <li style="margin-left: 11%;"><a id="login" href="Login.aspx" style="width: 70px;">Login</a>  </li>
+                            <li><a id="signUp" href="SignUp.aspx" style="width: 70px;">Sign Up</a>  </li>
+                        </asp:Panel>
+                        <asp:Panel ID="pnlLogout" runat="server">
+                            <li style="margin-left: 11%;"><a href="UserProfile.aspx" style="width: 70px;">Profile</a></li>
+                             <li><a id="logout" href="Logout.aspx" style="width: 70px;">Logout</a>  </li>
+                        </asp:Panel>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div id="headerBanner"></div>
+        </div>
+        <div id="backContent">
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="backFooter">
+            <div id="footer">
+                <div class="box">
+                    <div>
+                        <h2>Menu</h2>
+                        <br />
+                        <div class="miniBox">
+                            <ul>
+                                <li><a href="Default.aspx">Home</a></li>
+                                <li><a href="AboutUs.aspx">About Us</a>  </li>
+                                <li><a href="Artists.aspx">Artists</a>  </li>
+                                <li><a href="Galleries.aspx">Galleries</a>  </li>
+                                <li><a href="Exhibitions.aspx">Exhibitions</a>  </li>
+                                <li><a href="Contact.aspx">Contact</a>  </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div>
+                        <h2>About Us</h2>
+                        <br />
+                        <div class="miniBox">
+                            <p>Step through our door in the streets and you will be on a journey of discovery.  Inside the Gallery, you will find interlinked spaces and changing displays of contemporary art to browse and buy.  You can also treat yourself to a leisurely view of some of our Permanent Collection.</p>
+                            <ul><li style="margin-top:0px;"><a href="AboutUs.aspx">More...</a></li></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div>
+                        <h2>Contact</h2>
+                        <br />
+                        <div class="miniBox">
+                            <p>Trafalgar Square, Charing Cross <br />London WC2N 5DN<br />England, United Kingdom </p>
+                            <p>+90 212 684 16 85</p>
+                            <p>info@artgallery.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div>
+                        <h2>Active Hours</h2>
+                        <br />
+                        <div class="miniBox">
+                            <p>For full support</p>
+
+                            <p>Monday - Saturday / 10:00 - 19:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerLink">
+                <hr color="#e5e5e5"/>
+                <h4>Art Gallery © 2020</h4>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
